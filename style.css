@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Jost&family=Poppins:ital,wght@1,500&family=Tajawal:wght@300&display=swap');
+
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0%;
+    font-weight: 900;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    margin-left: 19%;
+    margin-top: 15%;
+}
+
+h1{
+    font-size: 4em;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 3em;
+    margin-left: 10em;
+    margin-top: 2em;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+a{
+    font-size: 3em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-right: 7em;
+    margin-top: 1em;
+    text-decoration: none;
+    display: none;
+}
+
+.btn2{
+    position: fixed;
+    font-size: 1em;
+    padding: 0px;
+    margin-top: 30%;
+    margin-left: 78%;
+    display: none;
+}
+
+.tablo{
+    background-color: white;
+    box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.199);
+    position: fixed;
+    padding: 40px 20px;
+    border-radius: 15px;
+    display: none;
+}
+
+.tablo h1{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.tablo input{
+    font-size: 3em;
+    width: 20em;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.btnEnter{
+    margin-left: 1em;
+}
